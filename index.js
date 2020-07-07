@@ -15,7 +15,33 @@ inquirer
      type: ""
  }
 ])
+.then(answers => {
+    generateMarkdown()
+})
 
+.catch(error => {
+    if(error.isTtyError) {
+        prompt("Nothing rendered with this text");
+    }else {
+        prompt("Input text!");
+    }
+})
+
+const data = new Uint8Array(Buffer.from('Hello Node.js'));
+fs.writeFile('message.txt', data, (err) => {
+  if (err) throw err;
+  console.log('The file has been saved!');
+});
+
+async function fn() {
+    return 'hello world';
+  }
+  const callbackFunction = util.callbackify(fn);
+  
+  callbackFunction((err, ret) => {
+    if (err) throw err;
+    console.log(ret);
+  });
 
 function generateMarkdown(answers) {
     return `
@@ -60,3 +86,5 @@ promptUser()
 
         return 
     })
+
+
