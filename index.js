@@ -16,7 +16,7 @@ inquirer
  }
 ])
 .then(answers => {
-    generateMarkdown()
+    console.log(answers);
 })
 
 .catch(error => {
