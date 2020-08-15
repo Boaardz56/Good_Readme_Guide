@@ -33,7 +33,7 @@
 
   ## Tests
 
-  <img src ="./src/ReadmeSC.png" width="500"> <br>
+  <img src ="./src/Terminal.png" width="500"> <br>
 
   ![Readme_Gif](https://github.com/Boaardz56/Good_Readme_Guide/blob/master/src/ReadGIF.gif)
       
