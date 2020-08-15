@@ -1,39 +1,39 @@
-# sldfj
+# Readme Test
 
-    ![badge](https://img.shields.io/badge/License-MIT-blue)
+  ![badge](https://img.shields.io/badge/License-MIT-blue)
 
-    ## Description
+  ## Description
 
-      readme
+    Read Me generator
 
-      <br>
-      GitHub: https://github.com/boaardz56
+    <br>
+    GitHub: https://github.com/Boaardz56
 
-    ## Table of Contents
-      * [Installation](#installation)
-      * [Usage](##usage)
-      * [Credits](##credits)
-      * [Tests](##tests)
-      * [License](##license)
+  ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](##usage)
+    * [Credits](##credits)
+    * [Tests](##tests)
+    * [License](##license)
     
-    ## Installation
+  ## Installation
 
-      > undefined
+    > npm install
 
-    ## Usage 
+  ## Usage 
 
-      node . and answer prompt questions
+    Go into terminal, then type "node.js"
 
-    ## Credits
+  ## Credits
 
-      Markdown readme
+    Markdown Readme
 
-    ## Tests
+  ## Tests
 
-      <img src ="none" width="500">
-      ![GIF](none)
+    <img src ="none" width="500">
+    ![GIF](none)
       
-    ##License
+  ##License
 
-      MIT license
+    MIT licensing
   

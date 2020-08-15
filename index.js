@@ -30,7 +30,7 @@ function promptUser() {
         {
             type: "input",
             message: "How do you install your project?",
-            name: "installation"
+            name: "install"
         },
         {
             type: "input",

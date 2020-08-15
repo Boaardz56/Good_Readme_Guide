@@ -2,42 +2,42 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
 
-    ![badge](https://img.shields.io/badge/License-${answers.badge}-blue)
+  ![badge](https://img.shields.io/badge/License-${answers.badge}-blue)
 
-    ## Description
+  ## Description
 
-      ${answers.description}
+    ${answers.description}
 
-      <br>
-      GitHub: https://github.com/${answers.GitHub}
+    <br>
+    GitHub: https://github.com/${answers.GitHub}
 
-    ## Table of Contents
-      * [Installation](#installation)
-      * [Usage](##usage)
-      * [Credits](##credits)
-      * [Tests](##tests)
-      * [License](##license)
+  ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](##usage)
+    * [Credits](##credits)
+    * [Tests](##tests)
+    * [License](##license)
     
-    ## Installation
+  ## Installation
 
-      > ${answers.install}
+    > ${answers.install}
 
-    ## Usage 
+  ## Usage 
 
-      ${answers.usage}
+    ${answers.usage}
 
-    ## Credits
+  ## Credits
 
-      ${answers.credits}
+    ${answers.credits}
 
-    ## Tests
+  ## Tests
 
-      <img src ="${answers.image}" width="500">
-      ![GIF](${answers.gif})
+    <img src ="${answers.image}" width="500">
+    ![GIF](${answers.gif})
       
-    ##License
+  ##License
 
-      ${answers.license}
+    ${answers.license}
   `;
 }
 
