@@ -1,10 +1,14 @@
-# ReadMe Generator
+# Readme Generator
 
   ![badge](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
 
-  Creating a readme.md generator template
+  Creating a readme template
+
+  ### Contact Information
+  Email:  jackie.lopez.56@gmail.com <br>
+  GitHub: https://github.com/Boaardz56
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,13 +19,13 @@
     
   ## Installation
 
-  > npm inquirer 
+    npm inquirer
+    npm install
 
   ## Usage 
 
-    Open terminal, input "node .", then answer prompt questions
-  * Node.js
-  * Inquirer
+  > Open terminal, input "node .", and answer prompt questions
+  * undefined
 
   ## Credits
 
@@ -30,14 +34,10 @@
   ## Tests
 
   <img src ="None" width="500">
-  ![GIF](https://github.com/Boaardz56/Good_Readme_Guide/blob/master/src/ReadmeGIF.gif)
+  ![GIF](./src/ReadGIF.gif)
       
   ## License
 
-  MIT licensing info will go here
+  MIT Licensing Info will go here
 
-  ## Questions
-  
-  Email:  jackie.lopez.56@gmail.com
-  GitHub: https://github.com/Boaardz56
   

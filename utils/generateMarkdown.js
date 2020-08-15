@@ -8,6 +8,10 @@ function generateMarkdown(answers) {
 
   ${answers.description}
 
+  ### Contact Information
+  Email:  ${answers.email} <br>
+  GitHub: https://github.com/${answers.GitHub}
+
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](##usage)
@@ -17,13 +21,13 @@ function generateMarkdown(answers) {
     
   ## Installation
 
-  > ${answers.installation} 
+    ${answers.installation}
+    ${answers.installation2}
 
   ## Usage 
 
-    ${answers.usage}
-  * ${answers.application1}
-  * ${answers.application2}
+  > ${answers.usage}
+  * ${answers.application}
 
   ## Credits
 
@@ -38,10 +42,6 @@ function generateMarkdown(answers) {
 
   ${answers.license}
 
-  ## Questions
-  
-  Email:  ${answers.email}
-  GitHub: https://github.com/${answers.GitHub}
   `;
 }
 
