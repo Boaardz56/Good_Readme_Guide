@@ -44,8 +44,13 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "Any gifs or pictures you would like to run? Enter url path here",
-            name: "tests"
+            message: "Any pictures you would like to run? Enter url path here: ",
+            name: "image"
+        },
+        {
+            type: "input",
+            message: "Any gifs you would like to run? Enter url path here: ",
+            name: "gif"
         },
         {
             type: "input",

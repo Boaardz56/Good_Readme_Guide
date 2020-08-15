@@ -14,9 +14,9 @@ function generateMarkdown(answers) {
     ## Table of Contents
       * [Installation](#installation)
       * [Usage](##usage)
-      * [License](##license)
-      * [Contributors](##contributors)
+      * [Credits](##credits)
       * [Tests](##tests)
+      * [License](##license)
     
     ## Installation
 
@@ -32,11 +32,12 @@ function generateMarkdown(answers) {
 
     ## Tests
 
-    <img src ="${answers.tests}" width="500">
+      <img src ="${answers.image}" width="500">
+      ![GIF](${answers.gif})
       
     ##License
 
-    ${answers.license}
+      ${answers.license}
   `;
 }
 
