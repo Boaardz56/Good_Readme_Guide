@@ -20,7 +20,7 @@ function generateMarkdown(answers) {
     
   ## Installation
 
-    > ${answers.install}
+    > ${answers.install} 
 
   ## Usage 
 
@@ -33,7 +33,7 @@ function generateMarkdown(answers) {
   ## Tests
 
     <img src ="${answers.image}" width="500">
-    ![GIF](${answers.gif})
+    ![GIF]<img src=" ${answers.gif} " alt="">
       
   ##License
 

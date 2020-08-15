@@ -1,10 +1,10 @@
-# Readme Test
+# ReadMe Generator
 
   ![badge](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
 
-    Read Me generator
+    ReadMe Generator
 
     <br>
     GitHub: https://github.com/Boaardz56
@@ -18,11 +18,11 @@
     
   ## Installation
 
-    > npm install
+    > npm install 
 
   ## Usage 
 
-    Go into terminal, then type "node.js"
+    Open terminal, enter node . and answer the prompt questions
 
   ## Credits
 
@@ -31,9 +31,9 @@
   ## Tests
 
     <img src ="none" width="500">
-    ![GIF](none)
+    ![GIF]<img src=" none " alt="">
       
   ##License
 
-    MIT licensing
+    MIT License
   
