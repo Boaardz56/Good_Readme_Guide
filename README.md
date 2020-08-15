@@ -40,5 +40,3 @@
   ## License
 
   MIT Licensing info will go here
-
-  
