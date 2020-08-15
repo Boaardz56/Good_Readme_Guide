@@ -34,7 +34,7 @@
   ## Tests
 
   <img src ="./src/ReadmeSC.png" width="500">
-  ![GIF]("./src/ReadGIF.gif")
+  ![GIF](https://github.com/Boaardz56/Good_Readme_Guide/blob/master/src/ReadGIF.gif)
       
   ## License
 
