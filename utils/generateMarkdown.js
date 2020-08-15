@@ -6,38 +6,42 @@ function generateMarkdown(answers) {
 
   ## Description
 
-    ${answers.description}
-
-    <br>
-    GitHub: https://github.com/${answers.GitHub}
+  ${answers.description}
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](##usage)
-    * [Credits](##credits)
-    * [Tests](##tests)
-    * [License](##license)
+  * [Installation](#installation)
+  * [Usage](##usage)
+  * [Credits](##credits)
+  * [Tests](##tests)
+  * [License](##license)
     
   ## Installation
 
-    > ${answers.install} 
+  > ${answers.installation} 
 
   ## Usage 
 
     ${answers.usage}
+  * ${answers.application1}
+  * ${answers.application2}
 
   ## Credits
 
-    ${answers.credits}
+  ${answers.credits}
 
   ## Tests
 
-    <img src ="${answers.image}" width="500">
-    ![GIF]<img src=" ${answers.gif} " alt="">
+  <img src ="${answers.image}" width="500">
+  ![GIF](${answers.gif})
       
-  ##License
+  ## License
 
-    ${answers.license}
+  ${answers.license}
+
+  ## Questions
+  
+  Email:  ${answers.email}
+  GitHub: https://github.com/${answers.GitHub}
   `;
 }
 

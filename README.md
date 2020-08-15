@@ -1,39 +1,42 @@
-# ReadMe Generator
+# ReadMeGenerator
 
   ![badge](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
 
-    ReadMe Generator
+  Creating a readme generator template 
 
-    <br>
-    GitHub: https://github.com/Boaardz56
+  GitHub: https://github.com/Boaardz56
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](##usage)
-    * [Credits](##credits)
-    * [Tests](##tests)
-    * [License](##license)
+  * [Installation](#installation)
+  * [Usage](##usage)
+  * [Credits](##credits)
+  * [Tests](##tests)
+  * [License](##license)
     
   ## Installation
 
-    > npm install 
+  > npm inquirer 
 
   ## Usage 
 
-    Open terminal, enter node . and answer the prompt questions
+    Open terminal, input "node .", then answer prompt questions
+  * Markdown Readme
+  * Node.js
 
   ## Credits
 
-    Markdown Readme
+  Mastering Markdown(https://guides.github.com/features/mastering-markdown/)
 
   ## Tests
 
-    <img src ="none" width="500">
-    ![GIF]<img src=" none " alt="">
+  <img src ="none" width="500">
+  ![GIF](./src/ReadmeGIF.gif)
       
-  ##License
+  ## License
 
-    MIT License
+  MIT licensing info goes here
+
+  
   

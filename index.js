@@ -22,15 +22,11 @@ function promptUser() {
             message: "What is your project about?",
             name: "description"
         },
-        {
-            type: "input",
-            name: "GitHub",
-            message: "Enter your GitHub username for your project:",
-        },
+        
         {
             type: "input",
             message: "How do you install your project?",
-            name: "install"
+            name: "installation"
         },
         {
             type: "input",
@@ -39,18 +35,38 @@ function promptUser() {
         },
         {
             type: "input",
+            message: "Enter the primary application used: ",
+            name: "application1"
+        },
+        {
+            type: "input",
+            message: "Any other applications used?",
+            name: "application2"
+        },
+        {
+            type: "input",
             message: "Any collaborators or third party websites to credit?",
             name: "credits"
         },
         {
             type: "input",
-            message: "Any pictures you would like to run? Enter url path here: ",
+            message: "Any pictures you would like to add? Enter url path here: ",
             name: "image"
         },
         {
             type: "input",
             message: "Any gifs you would like to run? Enter url path here: ",
             name: "gif"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email: ",
+        },
+        {
+            type: "input",
+            name: "GitHub",
+            message: "Enter your GitHub username for your project:",
         },
         {
             type: "input",
