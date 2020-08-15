@@ -4,7 +4,7 @@
 
   ## Description
 
-  Creating a readme template
+  Creating a README.md template using a CLI App
 
   ### Contact Information
   Email:  jackie.lopez.56@gmail.com <br>
@@ -25,7 +25,7 @@
   ## Usage 
 
   > Open terminal, input "node .", and answer prompt questions
-  * undefined
+  * Node.js
 
   ## Credits
 
@@ -33,11 +33,11 @@
 
   ## Tests
 
-  <img src ="None" width="500">
-  ![GIF](./src/ReadGIF.gif)
+  <img src ="./src/ReadmeSC.png" width="500">
+  ![GIF]("./src/ReadGIF.gif")
       
   ## License
 
-  MIT Licensing Info will go here
+  MIT Licensing info will go here
 
   
